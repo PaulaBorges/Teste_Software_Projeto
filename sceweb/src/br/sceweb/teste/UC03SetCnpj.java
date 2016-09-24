@@ -23,10 +23,15 @@ public class UC03SetCnpj {
 
 	@Test 
 	public void test() {
-		//boolean resultado = cnpj.isValido("47753481000170");
-		boolean resultado = cnpj.isValido("11111111111111");
-		boolean verdadeiro = false;
-		assertTrue(verdadeiro==resultado);
+		boolean resultado1 = cnpj.isValido("11111111111111");
+		boolean verdadeiro1 = false;
+		assertTrue(verdadeiro1==resultado1);
+		
+		boolean resultado2 = cnpj.isValido("22222222222222");
+		boolean verdadeiro2 = false;
+		assertTrue(verdadeiro2==resultado2);
+		
 	}
+	
 
 }
